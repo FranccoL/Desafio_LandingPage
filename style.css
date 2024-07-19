@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+
+#header{
+    background-color:#303030;
+    color: #ffffff;
+    width:1480px;
+    height: 475px;
+}
+#titulonav{
+    color: #FFFFFF;
+    padding-top: 12%;
+    padding-left: 5%;
+    font-size: 60px;
+}
+#textonav{
+    color:#FFFFFF;
+    font-size: 20px;
+    padding-left: 5%;
+}
+#dados{
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+    font-size: 10px;
+    background-color: #F9F9F9;
+    width:1480px;
+    height: 200px;
+}
+.numeros{
+    padding: 90px 10px 50px 150px;
+    font-size: 30px; 
+}
+
+.numeros p{
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+}
+#tituloimagem{
+    margin: 350px 120px 60px 40px;
+}
+#foto{
+    margin: 100px;
+}
+#textoimagem{
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight:lighter;
+}
+#formulario{
+    background-color: #303030;
+    text-align: center;
+    width:1480px;
+    height: 475px;
+}
+#tituloform{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom:55px;
+    padding-top: 100px;
+}
+input{
+    border-style: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 52px;
+    background-color:#0000004D 30%;
+    text-indent: 20px;
+    font-size: 18px;
+}
+button{
+    background: #C07212;
+    width: 196px;
+    height: 54px;
+    border-radius: 10px;
+    color:  #EAECE5;
+    font-family: inter;
+    font-size: 18px;
+    
+        
+}
+button:hover{
+    background-color:#331c0870;
+    color: white;
+    transform:translateY(-7px);
+    transition-duration:0.5s;
+    cursor: pointer;
+}
